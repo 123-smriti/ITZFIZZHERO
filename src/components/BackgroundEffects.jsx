@@ -1,7 +1,7 @@
 const NOISE =
   "url(\"data:image/svg+xml;utf8,<svg xmlns=\u0027http://www.w3.org/2000/svg\u0027 width=\u0027160\u0027 height=\u0027160\u0027><filter id=\u0027n\u0027><feTurbulence type=\u0027fractalNoise\u0027 baseFrequency=\u0027.8\u0027 numOctaves=\u00272\u0027/></filter><rect width=\u0027100%\u0027 height=\u0027100%\u0027 filter=\u0027url(%23n)\u0027/></svg>\")";
 
-// 16 particles, pseudo-random but deterministic; half are hidden on small screens
+
 const PARTICLES = Array.from({ length: 16 }, (_, i) => ({
   left: (i * 37 + 11) % 100,
   top: (i * 53 + 7) % 100,
