@@ -28,5 +28,4 @@ A cinematic, scroll-controlled hero section where a futuristic smartphone tells 
 Live URL:-https://123-smriti.github.io/ITZFIZZHERO/
 
 
-- Stage timings and scroll length: `src/hooks/useScrollAnimation.js`
-- Accent colour (`glow`) and fonts: `tailwind.config.js`
+
