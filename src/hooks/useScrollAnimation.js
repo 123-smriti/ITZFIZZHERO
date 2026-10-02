@@ -3,7 +3,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
-// stops the pinned hero from jumping when the mobile browser address bar shows/hides
+
 ScrollTrigger.config({ ignoreMobileResize: true });
 
 /**
