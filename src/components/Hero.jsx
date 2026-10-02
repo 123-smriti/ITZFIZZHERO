@@ -47,7 +47,7 @@ export default function Hero() {
             </span>
           ))}
         </h1>
-        <p className="subline mt-4 text-[10px] tracking-[0.35em] text-white/45 md:text-xs">DIGITAL EXPERIENCES / CREATIVE TECHNOLOGY</p>
+        <p className="subline mt-4 text-[10px] tracking-[0.35em] text-white/45 md:text-xs">INDIA'S FASTEST-GROWING DIGITAL MARKETING & GROWTH AGENCY</p>
 
         <div className="final-row mt-8 grid w-full max-w-[1100px] grid-cols-2 gap-3 text-left md:mt-12 md:flex md:items-center md:justify-center md:gap-5">
           {stats.slice(0, half).map((s) => <StatCard key={s.title} stat={s} variant="final" />)}
