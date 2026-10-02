@@ -1,4 +1,4 @@
-// Original fictional phone built only from HTML/CSS: no image assets, nothing to break.
+// Original fictional phone built only from HTML/CSS: 
 const DOTS = [[18, 70], [74, 24], [60, 82], [30, 30], [82, 58], [45, 50]];
 const WALLPAPER =
   "bg-[radial-gradient(circle_at_18%_8%,rgba(109,125,255,.5),transparent_45%),radial-gradient(circle_at_88%_78%,rgba(168,85,247,.38),transparent_50%),#06070b]";
